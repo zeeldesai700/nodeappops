@@ -114,6 +114,22 @@ exports.getcustomer = ((req,res,next) => {
     })
 })
 
+// Find the specific customer
+/*exports.getcustomer = (async(req,res,next) => {
+    try {
+        const user = await Customer.findAll({ where: { id: req.params.id }})
+        console.log(user);
+        if(user.length > 0) {
+            users = users[0];
+            res.status(200).json(users);
+        } else {
+            res.status(404).json({status: 'error', msg: 'Customer is not exist Please enter valid id'});
+        }
+    } catch(err) {
+        res.status(500).json({status: 'error', msg:' Internal server error'});
+    }
+}) */
+
 // Update the specific customer
 exports.editcustomer = ((req,res,next) => {
     Customer.findAll({ where: { id: req.params.id }})
