@@ -1,12 +1,12 @@
 1) Need to run below command
-    npm install
+### npm install
 
 2) First register cusotmer 
     url: "api/auth/register"
     method: post
     data: {
-        name:  {
-            type: String,
+    name:  {
+    type: String,
             requried: true
         }
         email: {
