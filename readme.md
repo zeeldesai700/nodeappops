@@ -52,7 +52,7 @@
         }
     }
 
-4) Add customer using authentication
+## Add customer using authentication
     url: "/api/customers"
     method: post,
     token: required,
@@ -90,17 +90,17 @@
         }
     }
 
-5) get cusotmers
+## get cusotmers
     url: "/api/customers"
     method: get,
     token: required,
 
-6) get specific cusotmers
+## get specific cusotmers
     url: "/api/customers/id"
     method: get,
     token: required,
 
-7) update specific cusotmers
+## update specific cusotmers
     url: "/api/customers/id"
     method: PUT,
     token: required,
@@ -138,7 +138,7 @@
         }
     }
 
-8) Delete specific cusotmer
+## Delete specific cusotmer
     url: "/api/customers/id"
     method: DELETE,
     token: required,
