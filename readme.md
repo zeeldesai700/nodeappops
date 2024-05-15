@@ -1,7 +1,7 @@
-1) Need to run below command
-### npm install
+## Need to run below command
+#### npm install
 
-2) First register cusotmer 
+## First register cusotmer 
     url: "api/auth/register"
     method: post
     data: {
@@ -38,7 +38,7 @@
         }
     }
     
-3) Login user
+## Login user
     url: "api/auth/login"
     method: post
     data: {
